@@ -2,6 +2,8 @@
 
 Scripts to collect and process the data from Airly sensors, then prepare report for website and send a notification (via e-mail).
 
+**This code will be rewritten, due to safety issues, as of May 30, 2022 Google blocked SMTP mail, which is used here.** 
+
 ## Airly API
 
 In this project I use open data from [Airly](https://airly.org) air sensors to get air quality every hour. Airly lets to use their API to get data 100 times per day. It's necessary to make an account and generate API key for your project. You can read more about this API [here](https://developer.airly.org/en/docs).
